@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { Grid, List, ListItem, ListItemText, Box, Typography, Divider, Paper } from '@mui/material';
 import axios from 'axios';
 import { Link } from 'react-router-dom';
-import CategorySidebar from './CategorySideBar';
+import CategorySidebar from './CategorySidebar';
 
 const ProductCategoryList = () => {
   const [categories, setCategories] = useState([]);

@@ -3,8 +3,7 @@ import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
 import { Grid, Paper, Typography, CircularProgress, Box } from '@mui/material';
 import axios from 'axios';
-import CategorySidebar from './CategorySideBar';
-// import CategorySidebar from './CategorySidebar'; // Import the CategorySidebar component
+import CategorySidebar from './CategorySidebar';
 
 const CategoryProducts = () => {
   const { slug } = useParams();
